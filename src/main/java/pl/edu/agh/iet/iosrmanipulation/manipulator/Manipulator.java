@@ -6,7 +6,7 @@ import javax.annotation.PostConstruct;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties("manipulator")
+@ConfigurationProperties(prefix = "manipulator")
 public class Manipulator {
     private String operation;
     private Random random;
