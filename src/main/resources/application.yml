@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: iosr-manipulation-service
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_URI:http://iosr-server.herokuapp.com/eureka}
+  instance:
+    prefer-ip-address: true
