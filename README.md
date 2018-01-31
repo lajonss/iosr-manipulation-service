@@ -5,5 +5,5 @@
 
 # Configuration
 
-* [application.yml](src/main/resources/applicaton.yml)
+* [application.yml](src/main/resources/application.yml)
   * operation mode may be set to ADD or MULTIPLY
